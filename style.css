@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Quicksand&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    background-color: #00040D;
+    color: whitesmoke;
+    
+}
+
+
+#title {
+    margin: 0 auto;
+    color: whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 5em;
+}
+
+.stormers-image{
+    border-radius: 10px;
+    height: auto;
+    max-width: 80%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bristol-image{
+    border-radius: 10px;
+    height: auto;
+    max-width: 80%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.ealing-image{
+    border-radius: 10px;
+    height: auto;
+    max-width: 80%;
+    max-height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+img:hover {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    animation-name: example;
+    animation-duration: 0.45s;
+    border-left: 9px outset #242526;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    filter: grayscale(40%);
+    cursor: pointer;
+  }
+
+
+  h2{
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: whitesmoke;
+}
+
+.navbar-list{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#wp{
+    height: auto;
+    width: 300px;
+}
+
+#bristol-head{
+    height: auto;
+    width: 300px;
+}
+
+#ealing-head{
+    height: auto;
+    width: 300px;
+}
+
+
+.heading{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+
+footer{
+    float: left;
+}
