@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <title id="rayn-title">Rayn Smids Rugby Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div >
+        <h1 id="title">Rayn Smid's Journey Through Rugby</h1>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list">
+            <li id="bioButton">Bio</li>
+            <li id="teamsButton">Teams</li>
+            <li id="achieveButton">Achievements</li>
+        </ul>
+    </div>
+    <div class="stormers">
+        <h2 class="stormers-title">Stormers</h2>
+        <img id="myButton" class="stormers-image" src="Pictures/smid-lions2013-638.jpg" alt="Stormers">
+    </div>
+    <div>
+         <h2 class="bristol-title">Bristol Bears</h2>
+         <img id="myButton1" class="bristol-image" src="Pictures/smid-yorkshire1.jpg" alt="Bristol">
+    </div>
+    <div>
+         <h2 class="ealing-title">Ealing Trailfinders</h2>
+         <img id="myButton2" class="ealing-image" src="Pictures/GettyImages-1303187534-1001x501.jpg" alt="Rayn Cup">
+    </div>
+
+
+
+    <script type="text/javascript">
+        document.getElementById("myButton1").onclick = function () {
+            location.href ="bristol.html";
+        };
+    </script>
+    <script type="text/javascript">
+        document.getElementById("myButton2").onclick = function () {
+            location.href ="ealing.html";
+        };
+    </script>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href ="stormers.html";
+        };
+    </script>
+    <script type="text/javascript">
+        document.getElementById("teamsButton").onclick = function () {
+            location.href ="teams.html";
+        };
+    </script>
+    <script type="text/javascript">
+        document.getElementById("achieveButton").onclick = function () {
+            location.href ="achievements.html";
+        };
+    </script>
+    <script type="text/javascript">
+        document.getElementById("bioButton").onclick = function () {
+            location.href ="bio.html";
+        };
+    </script>
+    <footer>
+        <p>Copyright JDV</p>
+    </footer>
+</body>
+</html>
